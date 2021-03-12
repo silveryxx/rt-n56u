@@ -534,7 +534,7 @@ function on_ttyd_link(){
                                         </tr>
                                         <tr id="ttyd_webui">
                                             <td>
-                                                <a href="javascript:on_ttyd_link();" id="web_ttyd_link">ttyd Web Shell</a>
+                                                <a href="javascript:on_ttyd_link();" id="web_ttyd_link">TTYD Web Shell</a>
                                             </td>
                                         </tr>
                                     </table>
