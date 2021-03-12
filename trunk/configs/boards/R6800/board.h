@@ -1,7 +1,7 @@
 /* NETGEAR-R6800 */
 
 #define BOARD_PID		"R6800"
-#define BOARD_NAME		"NETGEAR-R6800"
+#define BOARD_NAME		"R6800"
 #define BOARD_DESC		"NETGEAR R6800 Dual MT7615 Wireless Router"
 #define BOARD_VENDOR_NAME	"NETGEAR Co., Ltd."
 #define BOARD_VENDOR_URL	"http://www.netgear.com/"
