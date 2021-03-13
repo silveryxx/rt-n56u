@@ -5,4 +5,4 @@ all:
 clean:
 
 romfs:
-	$(ROMFSINST) -p +x $(THISDIR)/xray /usr/bin/xray
+	$(ROMFSINST) -p +x $(THISDIR)/xray_softfloat /usr/bin/xray
