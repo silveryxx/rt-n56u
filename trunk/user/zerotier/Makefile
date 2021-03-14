@@ -1,7 +1,9 @@
 THISDIR = $(shell pwd)
+all:
 
+clean:
 
-romfs:
+romfs
 	$(ROMFSINST) $(THISDIR)/zerotier-one /usr/bin/zerotier-one
 	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
 	ln -sf zerotier-one $(ROMFSDIR)/usr/bin/zerotier-cli
