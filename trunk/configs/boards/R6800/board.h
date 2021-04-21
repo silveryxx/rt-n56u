@@ -11,8 +11,10 @@
 #define BOARD_GPIO_BTN_RESET	12
 #define BOARD_GPIO_BTN_WPS	18
 #undef  BOARD_GPIO_LED_ALL
-#define BOARD_GPIO_LED_WIFI	14
-#define BOARD_GPIO_LED_POWER	0	/* 0: orange, 1: white */
+#undef  BOARD_GPIO_LED_WIFI
+#define BOARD_GPIO_LED_SW2G   4
+#define BOARD_GPIO_LED_SW5G   5
+#define BOARD_GPIO_LED_POWER	1	/* 0: orange, 1: white */
 #define BOARD_GPIO_LED_LAN	9	/* 0: orange, 1: white */
 #define BOARD_GPIO_LED_WAN	3	/* 0: orange, 1: white */
 #define BOARD_GPIO_LED_USB	7
